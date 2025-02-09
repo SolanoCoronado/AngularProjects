@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Presentación</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Perfil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="about-wrapper">
+            <div class="about-content">
+       
+                <span class="hello-badge">Hello I'm</span>
+                <h1 class="profile-name">Gabriel Solano</h1>
+                <h2 class="profile-title">Software engineering student</h2>
+                <div class="contact-info">
+                    <p><i class="bi bi-envelope-fill"></i> solanocoronado.g@email.com</p>
+                    <p><i class="bi bi-telephone-fill"></i> +506 60613131</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> Cartago, Oreamuno, San Rafael</p>
+                    
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+            <div class="profile-image-container">
+                <div class="image-circle"></div>
+                <img src="images/profile.jpeg" alt="Profile" class="profile-image">
+            </div>
+        </div>
+    
+        <div class="skills-container">
+            <h3>Skills</h3>
+            <p>
+                Hello, I'm Gabriel, a software engineering student. I have a growing experience in web development and customization. Also, I am good at:
+            </p>
+            <div class="skills-list">
+                <span class="skill-item">Python</span>
+                <span class="skill-item">HTML</span>
+                <span class="skill-item">CSS</span>
+                <span class="skill-item">JavaScript</span>
+                <span class="skill-item">C++</span>
+                <span class="skill-item">Java</span>
+            </div>
+            <a href="SolanoCoronadoGabriel.pdf" class="btn btn-download" download>
+                <i class="bi bi-download"></i> Download CV
+            </a>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Technical Skills -->
+                <div class="col-md-6">
+                    <h2 class="text-light mb-4">Technical Skills</h2>
+                    <div class="skill">
+                        <p>Javascript <span class="float-end">35%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 35%; background-color: #24E0C2;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Java <span class="float-end">67%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 67%; background-color: #24E0C2;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>Python <span class="float-end">75%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%; background-color: #24E0C2;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>C++ <span class="float-end">37%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 37%; background-color: #24E0C2;"></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Professional Skills -->
+                <div class="col-md-6">
+                    <h2 class="text-light mb-4">Professional Skills</h2>
+                    <div class="d-flex flex-wrap justify-content-between">
+                        <div class="circle-progress">
+                            <div class="circle" data-progress="95"></div>
+                            <p class="text-center mt-2">Communication</p>
+                        </div>
+                        <div class="circle-progress">
+                            <div class="circle" data-progress="55"></div>
+                            <p class="text-center mt-2">Team Work</p>
+                        </div>
+                        <div class="circle-progress">
+                            <div class="circle" data-progress="60"></div>
+                            <p class="text-center mt-2">Creativity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        document.querySelectorAll('.circle').forEach(circle => {
+            const progress = circle.getAttribute('data-progress'); 
+            circle.style.setProperty('--progress', progress); 
+
+           
+            const span = document.createElement('span');
+            span.textContent = `${progress}%`; 
+            span.style.position = 'absolute'; 
+            span.style.top = '50%';
+            span.style.left = '50%';
+            span.style.transform = 'translate(-50%, -50%)'; 
+            span.style.zIndex = '2'; 
+            span.style.color = '#fff'; 
+            span.style.fontSize = '1.2rem'; 
+            span.style.fontWeight = '600'; 
+
+            circle.appendChild(span);
+        });
+
+    </script>
+    
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/crowdTEC.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">CrowdTEC</h5>
+                            <p class="card-text">A Crowdfunding webpage project where students from the institute can analyze other students' projects and financially support them.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/Jaimex.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">JaimeX</h5>
+                            <p class="card-text">An E-commerce project where we sell technological products of various brands and types, such as monitors, graphics cards, processors, and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/MovieTEC.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">MovieTEC</h5>
+                            <p class="card-text">A movie management platform where users can view catalogs using the movieDB API, create a list of movies they want to watch, and log in using Google.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="resume">
+        <div class="resume-wrapper">
+            <h2 class="section-title">Resume</h2>
+            
+            <div class="resume-section">
+                <div class="section-header">
+                    <div class="resume-icon-circle">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <h3>Education</h3>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">2022 - Present</span>
+                        <h4>Software Engineering</h4>
+                        <p class="institution">Tecnológico de Costa Rica</p>
+                        <p class="description">A leading university in engineering fields.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2017 - 2018</span>
+                        <h4>High School</h4>
+                        <p class="institution">Sistema de colegios cientificos de Costa Rica</p>
+                        <p class="description">High school focused on science and technology.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="resume-section">
+                <div class="section-header">
+                    <div class="resume-icon-circle">
+                        <i class="bi bi-briefcase-fill"></i>
+                    </div>
+                    <h3>Experience</h3>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">2024 - Present</span>
+                        <h4>Junior Developer/It support</h4>
+                        <p class="institution">Lutron electronics</p>
+                        <p class="description">Providing technical support while actively developing and maintaining an inventory management system to improve operational efficiency and streamline processes.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="resume-section">
+                <div class="section-header">
+                    <div class="resume-icon-circle">
+                        <i class="bi bi-award-fill"></i>
+                    </div>
+                    <h3>Certifications</h3>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">2023</span>
+                        <h4>Python Essetnials 2</h4>
+                        <p class="institution">Cisco</p>
+                        <p class="description">Python advanced</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">2022</span>
+                        <h4>Foundational C#</h4>
+                        <p class="institution">Microsoft</p>
+                        <p class="description">Introduction to C#</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Interests</h2>
+        <p>
+            I enjoy a wide variety of activities that allow me to learn and grow. Below are some of my favorite hobbies and interests.
+        </p>
+        <div class="interests-list">
+            <div class="interest-item">Running</div>
+            <div class="interest-item">Gym</div>
+            <div class="interest-item">Technology</div>
+            <div class="interest-item">Gaming</div>
+            <div class="interest-item">Reading</div>
+            <div class="interest-item">Traveling</div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Me</h2>
+            
+            <div class="contact-info mb-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="icon-circle">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <h3>Address</h3>
+                            <p>San Rafael, Oreamuno, Cartago</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="icon-circle">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>solanocoronado.g@gmail.com  </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-card">
+                            <div class="icon-circle">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <h3>Phone</h3>
+                            <p> + 506(CR) 60613131</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom w-100">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18698.80075686793!2d-83.90367274669534!3d9.855515956750972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1735058395446!5m2!1ses-419!2scr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

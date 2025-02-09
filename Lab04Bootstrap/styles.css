@@ -1,0 +1,286 @@
+
+.navbar {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-text {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 20px 0 30px 0;
+}
+
+.btn-get-started {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-right: 15px;
+}
+
+.btn-download {
+    background: white;
+    color: #2193b0;
+}
+
+.laptop-container {
+    max-width: 100%;
+    height: auto;
+}
+
+.laptop-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* New styles for About section */
+.about-subtitle {
+    color: #6c757d;
+    max-width: 800px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.feature-icon.blue {
+    background: #63ceff;
+}
+
+.feature-icon-svg {
+    width: 24px;
+    height: 24px;
+    stroke: #333;
+}
+
+.feature-icon.blue .feature-icon-svg {
+    stroke: white;
+}
+.feature-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.feature-text {
+    color: #6c757d;
+    text-align: center;
+}
+
+.pricing-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.pricing-card.basic {
+    background: linear-gradient(135deg, #54c5ff, #54a4ff);
+}
+
+.pricing-card.basic .pricing-title,
+.pricing-card.basic .price,
+.pricing-card.basic .price-detail,
+.pricing-card.basic .feature-list {
+    color: white;
+}
+
+.pricing-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    color: #666;
+}
+
+.feature-list li {
+    margin: 15px 0;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+
+.price-currency {
+    font-size: 24px;
+    vertical-align: super;
+}
+
+.price-detail {
+    color: #666;
+    font-size: 14px;
+}
+
+.pricing-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.pricing-btn.basic {
+    background: white;
+    color: #54c5ff;
+}
+
+.pricing-btn.standard,
+.pricing-btn.ultimate {
+    background: #54c5ff;
+    color: white;
+}
+
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Features Section */
+.features {
+    background-color: #39a8e9;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.features p {
+    margin-bottom: 15px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.demo-btn {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.demo-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Footer */
+.footer {
+    background-color: #0e1318;
+    color: #777;
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-column h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+.newsletter-form button {
+    background-color: #39a8e9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #777;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.footer-bottom a {
+    color: #39a8e9;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}

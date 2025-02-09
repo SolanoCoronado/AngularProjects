@@ -1,0 +1,733 @@
+{
+  "salespersons": [
+    {
+      "id": "1",
+      "status": 0,
+      "infoResult": {
+        "data": [
+          {
+            "slpName": "VIANA CHINCHILLA VENEGAS",
+            "pastYearSale": 73219887.34,
+            "pastMonthSale": 60074721.33,
+            "budget": 78579945.862523,
+            "sale": 22208211.43,
+            "yearBudget": 255211636.419962,
+            "yearSale": 207215102.08,
+            "monthAdvance": 41.48,
+            "salesOrders": 0,
+            "quotations": 854647.53,
+            "username": "MLADMIN01",
+            "invoices": 22467012.68,
+            "creditNotes": -258801.25
+          }
+        ]
+      },
+      "weekResult": {
+        "data": [
+          {
+            "week": 1,
+            "initialDate": "2021-05-01T06:00:00.000Z",
+            "finalDate": "2021-05-01T06:00:00.000Z",
+            "weekWeight": 0,
+            "sale": 982695.02,
+            "invoices": 982695.02,
+            "creditNotes": 0
+          },
+          {
+            "week": 2,
+            "initialDate": "2021-05-02T06:00:00.000Z",
+            "finalDate": "2021-05-08T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 15192065.78,
+            "invoices": 15444891.28,
+            "creditNotes": -252825.5
+          },
+          {
+            "week": 3,
+            "initialDate": "2021-05-09T06:00:00.000Z",
+            "finalDate": "2021-05-15T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 6033450.63,
+            "invoices": 6039426.38,
+            "creditNotes": -5975.75
+          },
+          {
+            "week": 4,
+            "initialDate": "2021-05-16T06:00:00.000Z",
+            "finalDate": "2021-05-22T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 5,
+            "initialDate": "2021-05-23T06:00:00.000Z",
+            "finalDate": "2021-05-29T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 6,
+            "initialDate": "2021-05-30T06:00:00.000Z",
+            "finalDate": "2021-05-31T06:00:00.000Z",
+            "weekWeight": 5,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "status": 0,
+      "infoResult": {
+        "data": [
+          {
+            "slpName": "KARLA PICADO COTO",
+            "pastYearSale": 30908879.03,
+            "pastMonthSale": 39396624.85,
+            "budget": 36096329.755612,
+            "sale": 16635202.101825,
+            "yearBudget": 156629285.79924,
+            "yearSale": 154655927.432232,
+            "monthAdvance": 41.48,
+            "salesOrders": 3828993.4,
+            "quotations": 339142.2,
+            "username": "MLADMIN01",
+            "invoices": 16674318.06182592,
+            "creditNotes": -39115.96
+          }
+        ]
+      },
+      "weekResult": {
+        "data": [
+          {
+            "week": 1,
+            "initialDate": "2021-05-01T06:00:00.000Z",
+            "finalDate": "2021-05-01T06:00:00.000Z",
+            "weekWeight": 0,
+            "sale": 541631.09,
+            "invoices": 541631.09,
+            "creditNotes": 0
+          },
+          {
+            "week": 2,
+            "initialDate": "2021-05-02T06:00:00.000Z",
+            "finalDate": "2021-05-08T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 10007795.35,
+            "invoices": 10010490.85,
+            "creditNotes": -2695.5
+          },
+          {
+            "week": 3,
+            "initialDate": "2021-05-09T06:00:00.000Z",
+            "finalDate": "2021-05-15T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 6085775.66182592,
+            "invoices": 6122196.12182592,
+            "creditNotes": -36420.46
+          },
+          {
+            "week": 4,
+            "initialDate": "2021-05-16T06:00:00.000Z",
+            "finalDate": "2021-05-22T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 5,
+            "initialDate": "2021-05-23T06:00:00.000Z",
+            "finalDate": "2021-05-29T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 6,
+            "initialDate": "2021-05-30T06:00:00.000Z",
+            "finalDate": "2021-05-31T06:00:00.000Z",
+            "weekWeight": 5,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "status": 0,
+      "infoResult": {
+        "data": [
+          {
+            "slpName": "YEINOR CALVO PEREZ",
+            "pastYearSale": 37567412.57,
+            "pastMonthSale": 49953122.09,
+            "budget": 43637356.735843,
+            "sale": 11220925.79,
+            "yearBudget": 218285650.257359,
+            "yearSale": 186355181.8,
+            "monthAdvance": 41.48,
+            "salesOrders": 354951.6,
+            "quotations": 9987526.41,
+            "username": "MLADMIN01",
+            "invoices": 13603417.72,
+            "creditNotes": -2382491.93
+          }
+        ]
+      },
+      "weekResult": {
+        "data": [
+          {
+            "week": 1,
+            "initialDate": "2021-05-01T06:00:00.000Z",
+            "finalDate": "2021-05-01T06:00:00.000Z",
+            "weekWeight": 0,
+            "sale": 1081548.76,
+            "invoices": 1081548.76,
+            "creditNotes": 0
+          },
+          {
+            "week": 2,
+            "initialDate": "2021-05-02T06:00:00.000Z",
+            "finalDate": "2021-05-08T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 7355063.71,
+            "invoices": 7424963.71,
+            "creditNotes": -69900
+          },
+          {
+            "week": 3,
+            "initialDate": "2021-05-09T06:00:00.000Z",
+            "finalDate": "2021-05-15T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 2784313.32,
+            "invoices": 5096905.25,
+            "creditNotes": -2312591.93
+          },
+          {
+            "week": 4,
+            "initialDate": "2021-05-16T06:00:00.000Z",
+            "finalDate": "2021-05-22T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 5,
+            "initialDate": "2021-05-23T06:00:00.000Z",
+            "finalDate": "2021-05-29T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 6,
+            "initialDate": "2021-05-30T06:00:00.000Z",
+            "finalDate": "2021-05-31T06:00:00.000Z",
+            "weekWeight": 5,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "status": 0,
+      "infoResult": {
+        "data": [
+          {
+            "slpName": "FRANKLIN HUERTAS NAVAS",
+            "pastYearSale": 37416250.63,
+            "pastMonthSale": 35531518.81,
+            "budget": 40108539.071198,
+            "sale": 11820471.18,
+            "yearBudget": 176051004.910514,
+            "yearSale": 134547214.82,
+            "monthAdvance": 41.48,
+            "salesOrders": 49482.11,
+            "quotations": 156360.85,
+            "username": "MLADMIN01",
+            "invoices": 11835113.39,
+            "creditNotes": -14642.21
+          }
+        ]
+      },
+      "weekResult": {
+        "data": [
+          {
+            "week": 1,
+            "initialDate": "2021-05-01T06:00:00.000Z",
+            "finalDate": "2021-05-01T06:00:00.000Z",
+            "weekWeight": 0,
+            "sale": 120027.6,
+            "invoices": 120027.6,
+            "creditNotes": 0
+          },
+          {
+            "week": 2,
+            "initialDate": "2021-05-02T06:00:00.000Z",
+            "finalDate": "2021-05-08T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 6483759.19,
+            "invoices": 6483759.19,
+            "creditNotes": 0
+          },
+          {
+            "week": 3,
+            "initialDate": "2021-05-09T06:00:00.000Z",
+            "finalDate": "2021-05-15T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 5216684.39,
+            "invoices": 5231326.6,
+            "creditNotes": -14642.21
+          },
+          {
+            "week": 4,
+            "initialDate": "2021-05-16T06:00:00.000Z",
+            "finalDate": "2021-05-22T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 5,
+            "initialDate": "2021-05-23T06:00:00.000Z",
+            "finalDate": "2021-05-29T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 6,
+            "initialDate": "2021-05-30T06:00:00.000Z",
+            "finalDate": "2021-05-31T06:00:00.000Z",
+            "weekWeight": 5,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "status": 0,
+      "infoResult": {
+        "data": [
+          {
+            "slpName": "HEINNER ZUÑIGA ARIAS",
+            "pastYearSale": 37153617.28,
+            "pastMonthSale": 48471494.54,
+            "budget": 40810980.294069,
+            "sale": 17511472.47,
+            "yearBudget": 163439709.312227,
+            "yearSale": 157695677.92,
+            "monthAdvance": 41.48,
+            "salesOrders": 0,
+            "quotations": 0,
+            "username": "MLADMIN01",
+            "invoices": 17769797.34,
+            "creditNotes": -258324.87
+          }
+        ]
+      },
+      "weekResult": {
+        "data": [
+          {
+            "week": 1,
+            "initialDate": "2021-05-01T06:00:00.000Z",
+            "finalDate": "2021-05-01T06:00:00.000Z",
+            "weekWeight": 0,
+            "sale": 304975,
+            "invoices": 304975,
+            "creditNotes": 0
+          },
+          {
+            "week": 2,
+            "initialDate": "2021-05-02T06:00:00.000Z",
+            "finalDate": "2021-05-08T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 9744014.82,
+            "invoices": 9744014.82,
+            "creditNotes": 0
+          },
+          {
+            "week": 3,
+            "initialDate": "2021-05-09T06:00:00.000Z",
+            "finalDate": "2021-05-15T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 7462482.65,
+            "invoices": 7720807.52,
+            "creditNotes": -258324.87
+          },
+          {
+            "week": 4,
+            "initialDate": "2021-05-16T06:00:00.000Z",
+            "finalDate": "2021-05-22T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 5,
+            "initialDate": "2021-05-23T06:00:00.000Z",
+            "finalDate": "2021-05-29T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 6,
+            "initialDate": "2021-05-30T06:00:00.000Z",
+            "finalDate": "2021-05-31T06:00:00.000Z",
+            "weekWeight": 5,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "status": 0,
+      "infoResult": {
+        "data": [
+          {
+            "slpName": "JUAN JOSE JIMENEZ PICADO - FERRETERIA",
+            "pastYearSale": 8708272.52,
+            "pastMonthSale": 13638805.27,
+            "budget": 26226677.470882,
+            "sale": 9350642.11,
+            "yearBudget": 46404500.112176,
+            "yearSale": 65129293.04,
+            "monthAdvance": 41.48,
+            "salesOrders": 458832.84,
+            "quotations": 80600,
+            "username": "MLADMIN01",
+            "invoices": 9390055.940000001,
+            "creditNotes": -39413.83
+          }
+        ]
+      },
+      "weekResult": {
+        "data": [
+          {
+            "week": 1,
+            "initialDate": "2021-05-01T06:00:00.000Z",
+            "finalDate": "2021-05-01T06:00:00.000Z",
+            "weekWeight": 0,
+            "sale": 34395,
+            "invoices": 34395,
+            "creditNotes": 0
+          },
+          {
+            "week": 2,
+            "initialDate": "2021-05-02T06:00:00.000Z",
+            "finalDate": "2021-05-08T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 5583028.7,
+            "invoices": 5583028.7,
+            "creditNotes": 0
+          },
+          {
+            "week": 3,
+            "initialDate": "2021-05-09T06:00:00.000Z",
+            "finalDate": "2021-05-15T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 3733218.41,
+            "invoices": 3772632.24,
+            "creditNotes": -39413.83
+          },
+          {
+            "week": 4,
+            "initialDate": "2021-05-16T06:00:00.000Z",
+            "finalDate": "2021-05-22T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 5,
+            "initialDate": "2021-05-23T06:00:00.000Z",
+            "finalDate": "2021-05-29T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 6,
+            "initialDate": "2021-05-30T06:00:00.000Z",
+            "finalDate": "2021-05-31T06:00:00.000Z",
+            "weekWeight": 5,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "status": 0,
+      "infoResult": {
+        "data": [
+          {
+            "slpName": "KARLA GOMEZ RODRIGUEZ",
+            "pastYearSale": 27083650.14,
+            "pastMonthSale": 33413769.88,
+            "budget": 33239137.776961,
+            "sale": 12732734.17,
+            "yearBudget": 132526241.888716,
+            "yearSale": 120414628.45,
+            "monthAdvance": 41.48,
+            "salesOrders": 493559.12,
+            "quotations": 100179,
+            "username": "MLADMIN01",
+            "invoices": 12818204.850000001,
+            "creditNotes": -85470.68
+          }
+        ]
+      },
+      "weekResult": {
+        "data": [
+          {
+            "week": 1,
+            "initialDate": "2021-05-01T06:00:00.000Z",
+            "finalDate": "2021-05-01T06:00:00.000Z",
+            "weekWeight": 0,
+            "sale": 109200,
+            "invoices": 109200,
+            "creditNotes": 0
+          },
+          {
+            "week": 2,
+            "initialDate": "2021-05-02T06:00:00.000Z",
+            "finalDate": "2021-05-08T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 7154401.91,
+            "invoices": 7238331.91,
+            "creditNotes": -83930
+          },
+          {
+            "week": 3,
+            "initialDate": "2021-05-09T06:00:00.000Z",
+            "finalDate": "2021-05-15T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 5469132.26,
+            "invoices": 5470672.94,
+            "creditNotes": -1540.68
+          },
+          {
+            "week": 4,
+            "initialDate": "2021-05-16T06:00:00.000Z",
+            "finalDate": "2021-05-22T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 5,
+            "initialDate": "2021-05-23T06:00:00.000Z",
+            "finalDate": "2021-05-29T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 6,
+            "initialDate": "2021-05-30T06:00:00.000Z",
+            "finalDate": "2021-05-31T06:00:00.000Z",
+            "weekWeight": 5,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "status": 0,
+      "infoResult": {
+        "data": [
+          {
+            "slpName": "ADRIAN ALFARO CORDOBA",
+            "pastYearSale": 100820.3,
+            "pastMonthSale": 3422885.6,
+            "budget": 0,
+            "sale": 893570,
+            "yearBudget": 0,
+            "yearSale": 10483364.42,
+            "monthAdvance": 41.48,
+            "salesOrders": 0,
+            "quotations": 0,
+            "username": "MLADMIN01",
+            "invoices": 893570,
+            "creditNotes": 0
+          }
+        ]
+      },
+      "weekResult": {
+        "data": [
+          {
+            "week": 1,
+            "initialDate": "2021-05-01T06:00:00.000Z",
+            "finalDate": "2021-05-01T06:00:00.000Z",
+            "weekWeight": 0,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 2,
+            "initialDate": "2021-05-02T06:00:00.000Z",
+            "finalDate": "2021-05-08T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 893570,
+            "invoices": 893570,
+            "creditNotes": 0
+          },
+          {
+            "week": 3,
+            "initialDate": "2021-05-09T06:00:00.000Z",
+            "finalDate": "2021-05-15T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 4,
+            "initialDate": "2021-05-16T06:00:00.000Z",
+            "finalDate": "2021-05-22T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 5,
+            "initialDate": "2021-05-23T06:00:00.000Z",
+            "finalDate": "2021-05-29T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 6,
+            "initialDate": "2021-05-30T06:00:00.000Z",
+            "finalDate": "2021-05-31T06:00:00.000Z",
+            "weekWeight": 5,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "status": 0,
+      "infoResult": {
+        "data": [
+          {
+            "slpName": "FABIO CALDERON MONGE",
+            "pastYearSale": 39809975.47,
+            "pastMonthSale": 49691929.2,
+            "budget": 45307070.002559,
+            "sale": 22176698.909145,
+            "yearBudget": 209872571.272394,
+            "yearSale": 193299920.909145,
+            "monthAdvance": 41.48,
+            "salesOrders": 107598.02,
+            "quotations": 2295216.29,
+            "username": "MLADMIN01",
+            "invoices": 22772717.549999997,
+            "creditNotes": -596018.6408533871
+          }
+        ]
+      },
+      "weekResult": {
+        "data": [
+          {
+            "week": 1,
+            "initialDate": "2021-05-01T06:00:00.000Z",
+            "finalDate": "2021-05-01T06:00:00.000Z",
+            "weekWeight": 0,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 2,
+            "initialDate": "2021-05-02T06:00:00.000Z",
+            "finalDate": "2021-05-08T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 13482613.589146612,
+            "invoices": 13833141.43,
+            "creditNotes": -350527.840853387
+          },
+          {
+            "week": 3,
+            "initialDate": "2021-05-09T06:00:00.000Z",
+            "finalDate": "2021-05-15T06:00:00.000Z",
+            "weekWeight": 25.09,
+            "sale": 8694085.32,
+            "invoices": 8939576.12,
+            "creditNotes": -245490.8
+          },
+          {
+            "week": 4,
+            "initialDate": "2021-05-16T06:00:00.000Z",
+            "finalDate": "2021-05-22T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 5,
+            "initialDate": "2021-05-23T06:00:00.000Z",
+            "finalDate": "2021-05-29T06:00:00.000Z",
+            "weekWeight": 23,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          },
+          {
+            "week": 6,
+            "initialDate": "2021-05-30T06:00:00.000Z",
+            "finalDate": "2021-05-31T06:00:00.000Z",
+            "weekWeight": 5,
+            "sale": 0,
+            "invoices": 0,
+            "creditNotes": 0
+          }
+        ]
+      }
+    }
+  ]
+}

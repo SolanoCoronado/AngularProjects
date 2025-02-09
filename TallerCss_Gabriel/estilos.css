@@ -1,0 +1,283 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Layout */
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    gap: 20px;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+    flex: 1;
+}
+
+
+header {
+    padding: 16px 0;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #1a73e8;
+}
+
+/* Navigation */
+.menu {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    padding: 12px 16px;
+    margin: 4px 0;
+    color: #1a73e8;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu li:hover {
+    background-color: #e8f0fe;
+}
+
+.menu button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.menu button:hover {
+    background-color: #1557b0;
+}
+
+/* You Might Like Section */
+.you-might-like {
+    background-color: #f7f9fa;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.you-might-like h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #0f1419;
+    font-weight: 800;
+}
+
+.you-might-like ul {
+    list-style: none;
+}
+
+.you-might-like li {
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+.you-might-like li:last-child {
+    border-bottom: none;
+}
+
+.user-suggestion {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.user-suggestion .name {
+    font-weight: 600;
+    color: #0f1419;
+}
+
+.user-suggestion .handle {
+    color: #536471;
+    font-size: 14px;
+}
+
+.follow-btn {
+    background-color: #0f1419;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.follow-btn:hover {
+    background-color: #272c30;
+}
+
+/* Trending Section */
+.trending {
+    background-color: #f7f9fa;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.trending h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #0f1419;
+    font-weight: 800;
+}
+
+.trending ul {
+    list-style: none;
+}
+
+.trending li {
+    padding: 12px 0;
+    border-bottom: 1px solid #e6ecf0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.trending li:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.trending li:last-child {
+    border-bottom: none;
+}
+
+.trend-category {
+    display: block;
+    font-size: 13px;
+    color: #536471;
+}
+
+.trend-topic {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0f1419;
+    margin-top: 4px;
+}
+
+.see-more {
+    color: #1a73e8;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 12px 0;
+}
+
+.see-more:hover {
+    text-decoration: underline;
+}
+
+/* Search */
+.search-section {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 300px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #eff3f4;
+    font-size: 15px;
+    transition: background-color 0.2s;
+}
+
+.search-input:focus {
+    background-color: white;
+    outline: 1px solid #1a73e8;
+}
+
+/* Posts Section */
+.posts-section {
+    border-left: 1px solid #e6ecf0;
+    border-right: 1px solid #e6ecf0;
+    width: 600px;
+}
+
+.post {
+    padding: 16px;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+.post-header {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.profile-pic {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.user-info {
+    flex: 1;
+}
+
+.post-content {
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.post-interactions {
+    display: flex;
+    gap: 24px;
+    color: #536471;
+    font-size: 14px;
+}
+
+.interaction {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Main Footer */
+.main-footer {
+    background-color: #1a73e8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+}
